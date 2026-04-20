@@ -7,7 +7,7 @@
     <xsl:param name="redmine_id">ignore_this_value</xsl:param>
     <xsl:param name="project_short_title">Sil Vara</xsl:param>
     <xsl:param name="github_url">github_code_repo_url</xsl:param>
-    <xsl:param name="html_title">short_project_title</xsl:param>
+    <xsl:param name="html_title">Sil Vara</xsl:param>
     <xsl:param name="project_logo">images/logo.png</xsl:param>
     <xsl:param name="base_url">public_website_url</xsl:param>
     <xsl:param name="data_repo">https://github.com/:github_user_name/dse-static-data</xsl:param>
