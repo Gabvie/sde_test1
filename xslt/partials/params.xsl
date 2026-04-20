@@ -5,7 +5,7 @@
     <xsl:param name="directory_name">cookiecutter_template</xsl:param>
     <xsl:param name="project_title">Edition Sil Vara</xsl:param>
     <xsl:param name="redmine_id">ignore_this_value</xsl:param>
-    <xsl:param name="project_short_title">Sil Vara</xsl:param>
+    <xsl:param name="project_short_title">tappiti</xsl:param>
     <xsl:param name="github_url">github_code_repo_url</xsl:param>
     <xsl:param name="html_title">Sil Vara</xsl:param>
     <xsl:param name="project_logo">images/logo.png</xsl:param>
