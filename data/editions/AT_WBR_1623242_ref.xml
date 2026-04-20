@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief an Franz Servaes. London, 22.11.1907</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Beispieledition Briefwechsel Sil Vara für die Übung "Digital Editions for Advanced Learners"</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Wienbibliothek digital</p>
+            <p>urn:nbn:at:AT-WBR-1623242</p>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="#pe0001">Silberer, Geza</persName>
+              <settlement ref="#pl0001">London</settlement>
+              <date when="1907-11-22">22. November 1907</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="#pe0002">Servaes, Franz</persName>
+              <settlement ref="#pl0003">Wien</settlement>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="de">German</language>
+        </langUsage>
+     </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <pb/><opener><salute>Lieber <rs type="person" ref="#pe0002">Herr Doktor</rs> !</salute>
+            </opener><lb/>
+            <p>Ich habe für den Besuch des <lb/>
+               <rs type="person" ref="#pe0003">deutschen Kaisers</rs> in <name type="place" ref="#pl0003">England</name> ein Feuilleton "Schloss<lb/>
+               Windsor" eingesandt und möchte heute nur anfragen,<lb/>
+               ob dasselbe nicht in Ihren Besitz gelangt ist?<lb/>
+               Alle Zeitungen haben irgend etwas über <rs type="place" ref="#pl0004">Windsor</rs> ge-<lb/>
+               bracht, nur die N.F.P. nicht. Vorige Woche wäre doch<lb/>
+               gewiss die beste Gelegenheit gewesen, diese<del>s</del> Arbeit<lb/>
+               zu bringen und ich könnte einige Feuilletons der<lb/>
+               letzten 14 Tage erwähnen,die weniger aktuell waren.<lb/>
+               Ich habe auch noch einen Artikel über "Englisches<lb/>
+               Theater" bei Ihnen liegen;hätte auch Stoff zu mehr,<lb/>
+               aber wozu,<subst><del>s</del><add>w</add></subst>enn nicht einmal die alten Sachen er-<lb/>
+               scheinen. Bitte,nehmen Sie dies nicht als Klage<add>,</add><lb/>
+            ich konstatire bloss.</p>
+            <p>Ich will nicht,dass meine <add>Br</add>iefe an Sie<lb/>
+               in der Redaktion gelesen werden,desshalb ad<subst><del>d</del><add>r</add></subst>essire<lb/>
+            <pb/>ic<add>h</add> a<add>n</add> Ihre Privatwohnung.</p>
+            <closer><salute>Mit den freundlichsten Grüssen an Sie und<lb/> 
+                  Ihre liebe Familie verbleibe ich<lb/>
+            
+            Ihr stets ergebener</salute>
+               <signed><rs type="person" ref="#pe0001">Sil Vara</rs></signed></closer>
+         </div>
+      </body>
+  </text>
+</TEI>
