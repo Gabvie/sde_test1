@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief an Adele Strauß. London, 1.4.1908</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Beispieledition Briefwechsel Sil Vara für die Übung "Digital Editions for Advanced Learners"</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Wienbibliothek digital</p>
+            <p>urn:nbn:at:AT-WBR-1626695</p>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="#pe0001">Silberer, Geza</persName>
+              <settlement ref="#pl0001">London</settlement>
+              <date when="1908-04-01">1. April 1908</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="#pe0004">Strauß, Adele</persName>
+              <settlement ref="#pl0003">Wien</settlement>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="de">German</language>
+        </langUsage>
+     </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <pb/>
+            <opener>
+               <dateline><rs type="place" ref="#pl0005">43, Upper Bedford Place, W.C.</rs><lb/>
+                  <rs type="place" ref="#pl0001">London</rs>, <date when="1908-04-01">1. <subst><del>Z</del><add>A</add></subst>pril 1908.</date></dateline>
+               
+               
+                        <salute>Sehr geehrte gnädige <rs type="person" ref="#pe0004">Frau</rs> !</salute>
+               </opener>
+            
+               <p>Ich habe unsere Angelegenheit nicht aus dem Auge<lb/>
+                  gelassen,habe aber in der letzten Zeit wenig Gelegenheit<lb/>
+                  gehabt,mich intensiver damit zu befassen. Um jedoch die<lb/> 
+                  einmal begonnene Aktion nicht im Sande verlaufen zu las-<lb/>
+                  sen und um Ihnen zu beweisen,dass es mir ernst um die<lb/>
+                  Sache war,habe ich die Angelegenheit dem besten <rs type="person" ref="#pe0005">Agenten</rs><lb/>
+                  hier vorgelegt und ihn für die Operetten interessirt.<lb/>
+                  Da - wie bereits einmal erwähnt- der Vertrieb später ohne-<lb/>
+                  hin einem Agenten hätte übergeben werden müssen, hat sich<lb/>
+                  für Sie im Prinzipe nichts geändert. -  Das betref-<lb/>
+                  fende Bureau hat die grössten geschäfte hier vermittelt<lb/>
+                  und ist insbesondere mit den für Operetten in Frage<lb/>
+                  kommenden Direktoren und Unternehmern auf sehr gute<subst><del>n</del><add>m</add></subst><lb/>
+                  Fusse. Ich habe die Herren animirt,sich vorerst für die<lb/>
+                  <rs type="work" ref="#wo0001">"Fledermaus"</rs> und für <rs type="work" ref="#wo0002">"Wiener Blut"</rs> zu interessiren.<lb/>
+                  <rs type="work" ref="#wo0002">"Wi<add>e</add>ner Blut"</rs>,dessen Text für <rs type="place" ref="#pl0003">England</rs> leicht adaptirt wer-<lb/>
+                  den kö<subst><del>h</del><add>n</add></subst>nte,wäre meiner Ansicht n<add>a</add>ch sogar vor der <rs type="work" ref="#wo0001">Fleder-<lb/>
+                     maus</rs> herauszubringen.    Die Betreffenden <add>H</add>erren wer-<lb/>
+                  den nun in dieser Angelegenheit sondiren und haben die<lb/>
+                  Absicht,in absehbarer Zeit nach <rs type="place" ref="#pl0002">Wien</rs> zu kommen,um mit<lb/>
+                  <pb/>Ihnen persönlich zu conferiren. ( Ich habe nämlich ge-<lb/>
+                  sagt,dass Sie diese Bedingung stellen .) Alles was sie<lb/>
+                  vorläufig erbitten ist,dass Sie,sehr geehrte <rs type="person" ref="#pe0004">Frau Strau<add>ss</add></rs><lb/>
+                  resp. Ihr <rs type="person" ref="#pe0006">Agent</rs> in <rs type="place" ref="#pl0002">Wien</rs> momentan keinerlei e<subst><del>b</del><add>v</add></subst>entuell<lb/>
+                  anderweitig auftauchende Offerten aus <rs type="place" ref="#pl0003">England</rs> berück-<lb/>
+                  sichtigen, bis Sie wiederum von mir gehört haben. -<lb/>
+                  Da Sie mir dies ohnedies zugesagt hatten, glaubte ich<lb/> 
+            dieses Versprevhen ruhig geben zu können.</p>
+            <p>Wäre es möglich,dass Sie mir den Text von <rs type="work" ref="#wo0002">"Wiener
+                  Blut"</rs> zukommen liessen ? Da ja diese Operette hier<lb/>
+            gänzlich unbekannt ist.</p>
+            <p>Einer der Direktoren dieses Bureaus wird sich er-<lb/>
+            <subst><del>n</del><add>l</add></subst>auben Sie zu besuchen und werde ich Ihnen seinen Be-<lb/>
+            such noch rechtzeitig ankündigen.</p> 
+            <closer><salute>Ich ver bleibe mit den besten Empfehlungen und Handküssen<lb/>
+            
+            Ihr stets ergebener</salute>
+            
+               <signed><rs type="person" ref="#pe0001">Sil Vara</rs></signed></closer>
+        
+          
+            
+         </div>
+      </body>
+  </text>
+</TEI>

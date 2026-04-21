@@ -115,6 +115,10 @@
     <xsl:template match="tei:p">
        <p><xsl:apply-templates/></p>
     </xsl:template>
+
+    <xsl:template match="tei:opener">
+        <p><xsl:apply-templates/></p>
+    </xsl:template>
     
     <xsl:template match="tei:table">
         <xsl:element name="table">

@@ -51,8 +51,10 @@
                                                   select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"
                                                   />
                                                 </xsl:attribute>
-                                                <i class="bi bi-link-45deg"/>
-                                            
+                                                <i class="bi bi-link-45deg"/>                                          
+                                            </a>
+
+
                                         </td>
                                         <td>
                                              <a>

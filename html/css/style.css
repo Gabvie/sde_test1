@@ -1,3 +1,5 @@
+
+
 /* needed for interactive map in listplace.xsl */
 div#map {
     height: 50vh;
@@ -8,3 +10,10 @@ div#map {
     outline: 0;
     box-shadow: 0 0 0 .25rem rgba(13,110,253,.25);
 }
+
+/* Footer logo styling */
+footer img.footer_logo {
+width: 200px;
+height: auto;
+}
+
